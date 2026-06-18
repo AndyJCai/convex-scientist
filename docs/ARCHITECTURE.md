@@ -103,7 +103,7 @@ from the live registry, so adding a file auto-updates the prompt. The pattern:
 `execute` calls a REST/GraphQL endpoint with `fetch()` (no `"use node"` in the
 V8 runtime), normalizes to a stable output shape for the tool-call card, and
 never throws — on failure it returns a graceful `{ …, error }` so the agent's
-turn survives. See the [contributing guide](../README.md#contributing-a-tool).
+turn survives. See the [contributing guide](../convex/tools/CONTRIBUTING.md).
 
 **Shipped**
 
