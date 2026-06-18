@@ -51,3 +51,6 @@ publish-convex-app.mjs
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local Claude Code tooling config
+.claude/
