@@ -32,9 +32,21 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# ...but keep a committed template for contributors (open-source, BYO API key)
+!.env.example
 
 # vercel
 .vercel
+
+# AI Scientist / Convex quickstart — never commit these
+# generated JWT private key + JWKS (A0 auth setup)
+.auth-keys.json
+# bootstrap log / lock / domains brainstorm
+.quickstart-*
+# downloaded at publish time, not source
+publish-convex-app.mjs
+# stray local logs (error mirrors live in a temp dir)
+*.log
 
 # typescript
 *.tsbuildinfo
