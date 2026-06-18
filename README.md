@@ -2,6 +2,8 @@
 
 An open-source AI research companion built on [Convex](https://convex.dev/) + Next.js — upload datasets, chat with a research agent, and organize generated outputs per task and project.
 
+![Convex Scientist — chat with the research agent, with inline tool-call cards and a per-task file Drive](docs/assets/screenshot.png)
+
 ## Stack
 
 - [Convex](https://convex.dev/) for the backend (database, server logic, the agent runtime)
